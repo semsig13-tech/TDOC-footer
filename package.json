@@ -1,0 +1,19 @@
+{
+  "name": "@semsig13-tech/tdoc-footer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean"
+  },
+  "peerDependencies": {
+    "@jackyzha0/quartz": "^5.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}
